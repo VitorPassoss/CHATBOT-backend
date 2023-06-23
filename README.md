@@ -1,4 +1,4 @@
-## Projex
+## ScalaSystem
 
 ## Tecnologias utilizadas
 - Django 
@@ -25,40 +25,7 @@
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) (Windows e Mac)
 - [Docker Compose](https://docs.docker.com/compose/) (Linux, Windows e Mac)
 
-### Linux
 
-```bash
-# Clone o repositório
-git clone git@github.com:VitorPassoss/projex-backend.git
-
-# Entre na pasta do projeto
-cd projex-backend
-
-# Suba os containers
-docker-compose up -d --build
-
-# Execute as migrações
-docker exec -it app python manage.py migrate
-
-# Crie um super usuário
-docker exec -it app python manage.py createsuperuser
-```
-
-
-### Windows (PowerShell)
-
-```powershell
-# Clone o repositório
-git clone git@github.com:VitorPassoss/projex-backend.git
-
-# Entre na pasta do projeto
-cd projex-backend
-
-# Suba os containers
-docker-compose up -d --build
-
-# Execute as migrações
-docker exec -it app python manage.py migrate
 
 # Crie um super usuário
 docker exec -it app python manage.py createsuperuser
