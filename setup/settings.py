@@ -19,9 +19,7 @@ CORS_ALLOWED_ORIGINS = [
 
 
 INSTALLED_APPS = [
-    'apps.products',
-    'apps.stock',
-    'apps.authentication',
+    'authentication',
     'jazzmin',
     'corsheaders',
     'rest_framework',
@@ -147,8 +145,8 @@ JAZZMIN_SETTINGS = {
     "site_title": "Scala Admin",
     "site_header": "Scala Admin",
     "site_brand": "Scala Admin",
-    "welcome_sign": "Bem vindo ao Scala Admin",
-    "copyright": "Scala",
+    "welcome_sign": "Bem vindo ao Software Admin",
+    "copyright": "Chat admin",
     "icons": {
         "auth": "fas fa-users-cog",
         "auth.user": "fas fa-user",
