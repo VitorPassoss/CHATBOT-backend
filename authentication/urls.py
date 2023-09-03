@@ -4,5 +4,7 @@ from authentication.services.auth_token import CustomTokenObtainPairView
 
 urlpatterns = [
     path("login/", CustomTokenObtainPairView.as_view(),name="login-v1"),
-    path('user/', views.DetailsUser.as_view(), name='user')
+    path('user/', views.DetailsUser.as_view(), name='user'),
+    path('cash/', views.UpdateAmount.as_view(), name='cash'),
+
 ]

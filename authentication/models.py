@@ -1,13 +1,6 @@
-import logging
-import re
 
 from django.contrib.auth.models import User
 from django.db import models
-
-
-
-logger = logging.getLogger(__name__)
-
 
 class Person(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
