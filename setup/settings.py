@@ -13,10 +13,8 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8100", 
-    "https://64f539dcd7589474d6228fac--bespoke-platypus-9dcfb7.netlify.app"
-]
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 
 INSTALLED_APPS = [
